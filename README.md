@@ -1,37 +1,37 @@
- 🩺 Disease Prediction System (Diabetes & Heart Disease)
+  Disease Prediction System (Diabetes & Heart Disease)
 
- 📌 Overview
+  Overview
 
 This project is a **Machine Learning-based Disease Prediction System** that predicts the likelihood of **Diabetes** and **Heart Disease** using patient health data.
 
 It uses **Logistic Regression** to classify whether a person is likely to have a disease based on medical attributes.
 
-🚀 Features
+ Features
 
-* 📂 Supports multiple datasets (Diabetes & Heart Disease)
-* 🧹 Data preprocessing:
+*  Supports multiple datasets (Diabetes & Heart Disease)
+*  Data preprocessing:
 
   * Handles missing values using mean imputation
   * Converts categorical variables using one-hot encoding
     
-* ⚖️ Feature scaling using StandardScaler
-* 🤖 Machine learning model: Logistic Regression
-* 📊 Model evaluation:
+*  Feature scaling using StandardScaler
+*  Machine learning model: Logistic Regression
+*  Model evaluation:
   * Accuracy Score
   * Classification Report
   * Confusion Matrix
   * ROC-AUC Score
     
-* 🔮 Predicts disease outcome for new user input
+*  Predicts disease outcome for new user input
 
 
-🛠️ Technologies Used
+ Technologies Used
 
 * Python
 * Pandas
 * Scikit-learn
 
- ⚙️ How It Works
+  How It Works
 
 1. Load dataset (e.g., diabetes or heart disease dataset)
 2. Preprocess data:
@@ -44,7 +44,7 @@ It uses **Logistic Regression** to classify whether a person is likely to have a
 6. Evaluate model performance
 7. Predict disease outcome for new input
 
- ▶️ How to Run
+  How to Run
 
 1. Clone the Repository
 
@@ -59,12 +59,12 @@ pip install pandas scikit-learn
 
 python Disease3.py
 
-📥 Input Instructions
+ Input Instructions
 
 * Enter dataset filename (e.g., `diabetes.csv` or `heart.csv`)
 * Enter target column (e.g., `Outcome` or `HeartDisease`)
 
-📊 Output
+ Output
 
 * Accuracy Score
 * Classification Report
@@ -72,18 +72,18 @@ python Disease3.py
 * ROC-AUC Score
 * Prediction result (Positive / Negative)
 
- 🎯 Use Cases
+  Use Cases
 
 * Early disease prediction (educational purpose)
 * Learning machine learning workflow
 * Practicing healthcare data analysis
 
 
-⚠️ Disclaimer
+ Disclaimer
 
 This project is for **educational purposes only** and **not intended for medical diagnosis**.
 
- 👨‍💻 Author
+  Author
 
 Ashish Joshi
 
